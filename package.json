@@ -1,0 +1,18 @@
+{
+  "name": "doorlock-rfid",
+  "version": "1.0.0",
+  "description": "IoT Door Control - RFID Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimJongSkill/doorlock-rfid.git"
+  },
+  "author": "Andreas Economides",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KimJongSkill/doorlock-rfid/issues"
+  }
+}
