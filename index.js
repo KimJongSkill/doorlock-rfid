@@ -2,11 +2,12 @@ const fs = require('fs');
 const http2 = require('http2');
 const tls = require('tls');
 const freefare = require('freefare');
+const path = require('path');
 const Timeout = require('await-timeout');
 
 const Credentials = tls.createSecureContext({
-    key: fs.readFileSync('raspberrypi2_home.client.key'),
-    cert: fs.readFileSync('raspberrypi2_home.client.crt'),
+    key: fs.readFileSync(path.join(__dirname, 'raspberrypi2_home.client.key')),
+    cert: fs.readFileSync(path.join(__dirname, 'raspberrypi2_home.client.crt')),
     minVersion: 'TLSv1.2'
 });
 
