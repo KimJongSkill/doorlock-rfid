@@ -14,5 +14,9 @@
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/KimJongSkill/doorlock-rfid/issues"
+  },
+  "dependencies": {
+    "await-timeout": "^0.3.0",
+    "freefare": "^0.1.5"
   }
 }
